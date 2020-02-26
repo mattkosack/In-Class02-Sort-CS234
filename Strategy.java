@@ -1,3 +1,4 @@
 public interface Strategy {
-    public void sort(int[] numbers);
+    public void sort(int[] array);
+
 }
