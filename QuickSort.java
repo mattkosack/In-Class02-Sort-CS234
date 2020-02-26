@@ -1,3 +1,5 @@
+//Abdulia & Jon
+
 import java.util.Arrays;
 
 public class QuickSort implements Strategy {
@@ -8,6 +10,7 @@ public class QuickSort implements Strategy {
         this.array = numbers;
         quicksort(0, numbers.length - 1);
 
+        System.out.println("Quick Sort");
         System.out.println(Arrays.toString(array));
     }
 

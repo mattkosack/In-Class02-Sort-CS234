@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] array = {1,4,2,6,20};
+        int[] array = {4,1,10,11,2};
 
         Context bubble = new Context(new BubbleSort());
         bubble.arrange(array);

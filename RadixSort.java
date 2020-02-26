@@ -1,3 +1,5 @@
+//Ryan Ballek
+
 import java.util.Arrays;
 
 public class RadixSort implements Strategy {
@@ -31,6 +33,7 @@ public class RadixSort implements Strategy {
             exp *= 10;
         }
 
+        System.out.println("Radix Sort");
         System.out.println(Arrays.toString(array));
     }
 }

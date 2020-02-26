@@ -1,3 +1,5 @@
+//Matt
+
 import java.util.Arrays;
 
 public class BubbleSort implements Strategy {
@@ -12,6 +14,8 @@ public class BubbleSort implements Strategy {
                 }
             }
         }
+
+        System.out.println("Bubble Sort");
         System.out.println(Arrays.toString(array));
     }
 }
