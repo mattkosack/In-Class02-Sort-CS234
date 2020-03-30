@@ -9,4 +9,9 @@ public class Context {
     public void arrange(int[] array){
         strategy.sort(array);
     }
+
+    public void changeSort(Strategy newStrat){
+        strategy = newStrat;
+    }
+
 }

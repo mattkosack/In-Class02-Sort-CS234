@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] array = {1,4,2,6,20};
+        int[] array = {27,4,1,10,11,2};
 
-        Context bubble = new Context(new BubbleSort());
-        bubble.arrange(array);
+        Context sort = new Context(new BubbleSort());
+        sort.arrange(array);
 
-        Context quick = new Context(new QuickSort());
-        quick.arrange(array);
+        sort.changeSort(new QuickSort());
+        sort.arrange(array);
 
-        Context radix =  new Context(new RadixSort());
-        radix.arrange(array);
+        sort.changeSort(new RadixSort());
+        sort.arrange(array);
 
     }
 }

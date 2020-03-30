@@ -1,3 +1,5 @@
+// Abdullah and John
+
 import java.util.Arrays;
 
 public class QuickSort implements Strategy {
